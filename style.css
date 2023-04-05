@@ -1,0 +1,33 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-div {
+    background-color: aliceblue;
+    border:1px solid #0f5c88;
+    width: 400px;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+.form-div form * {
+    margin-top: 15px;
+}
+
+.button {
+    color: #fff;
+    width: 85%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #0f5c88;
+}
